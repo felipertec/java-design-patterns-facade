@@ -1,18 +1,18 @@
-## Getting Started
+# Facade Design Patterns
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Para esse projeto foi utilizado o padrão de projeto facade(fachada) de um homeTheater na qual ele atua como uma interface simplificada para interagir com os seus subsistemas.
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+### Subsistemas
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- [Amplifier.java]('https://github.com/felipertec/java-design-patterns-facade/tree/main/src/classes/Amplifier.java')
+- [DvdPlayer.java]('https://github.com/felipertec/java-design-patterns-facade/tree/main/src/classes/DvdPlayer.java')
+- [Tuner.Java]('https://github.com/felipertec/java-design-patterns-facade/tree/main/src/classes/Tuner.Java')
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Facade(Fachada)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- [HomeTheaterFacade.java]('https://github.com/felipertec/java-design-patterns-facade/tree/main/src/classes/HomeTheaterFacade.java')
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+<div align="center"> Feito por <a href="https://github.com/felipertec">Felipe 🧑‍💻</a>
+
